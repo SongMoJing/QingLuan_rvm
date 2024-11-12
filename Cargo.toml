@@ -1,0 +1,12 @@
+[package]
+name = "rvm"
+version = "0.1.0"
+edition = "2021"
+authors = [
+    "PRC.松蓦箐 <Song_Mojing@outlook.com>"
+]
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+colored = "2.0"
+xmltree = "0.11.0"
